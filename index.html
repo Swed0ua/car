@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="screen screen_1">
+      <div class="eclipse"></div>
+      <div class="other__text_1scr">
+        для первого заказа <br />
+        скидка 25%
+      </div>
+      <header>
+        <ul>
+          <li class="menu__item menu__item_1"><a href="#scr1">главная</a></li>
+          <li class="menu__item menu__item_2"><a href="#scr2" >асортимент</a></li>
+          <li class="menu__item logo">
+            <img src="img/LogoMecs.png" alt="LOGO" />
+          </li>
+          <li class="menu__item menu__item_3"><a href="#scr3">преимущества</a></li>
+          <li class="menu__item menu__item_4"><a href="#scr4">о нас</a></li>
+        </ul>
+      </header>
+      <div class="center___text">
+        <div class="center__main"><h1>Автомастерская Джо</h1></div>
+        <div class="button_scr1"><a href="fotm.html" target="blanc">связаться с нами</a></div>
+      </div>
+    </div>
+    <div class="screen screen_2" id="scr2" >
+      <div class="title_scr2"><h2>мы предлагаем</h2></div>
+      <div class="slider__wrapper">
+        <div onclick="nextSlide(1)" class="button__next button__slider"></div>
+        <div onclick="nextSlide(-1)" class="button__prev button__slider"></div>
+        <div class="slider">
+          <div onclick="currentSlide(1)" class="slide slide_1">
+            <img class="img__slide" src="img/uuuue.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(2)" class="slide slide_2">
+            <img class="img__slide" src="img/uuuut.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(3)" class="slide slide_3">
+            <img class="img__slide" src="img/uuuuu.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(4)" class="slide slide_4">
+            <img class="img__slide" src="img/uuuue.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(5)" class="slide slide_5">
+            <img class="img__slide" src="img/uuuut.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(6)" class="slide slide_6">
+            <img class="img__slide" src="img/uuuuu.jpg" alt="photoAAA" />
+          </div>
+          <div onclick="currentSlide(7)" class="slide slide_7">
+            <img class="img__slide" src="img/uuuue.jpg" alt="photoAAA" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen screen_3" id="scr3">
+      <div class="bc_img_scr3">
+        <img src="img/wpid-werkstatt.png" alt="just photo" /><img
+          src="img/Path 2.png"
+          alt="ada"
+        />
+      </div>
+      <div class="bc_img_scr3_eclipse"></div>
+      <div class="title_3scr"><h3>почему мы</h3></div>
+      <div class="description__scr3">
+        <ul>
+          <li>1500 постоянных клиентов</li>
+          <li>10 специалистов высшего класса</li>
+          <li>обслуживаем авто любого класса и марки</li>
+          <li>быстрое и качественное исполнение роботы</li>
+          <li>12 лет на рынке Украины</li>
+        </ul>
+      </div>
+      <div class="button_scr3"><a href="fotm.html" target="blanc">оставить заявку</a></div>
+    </div>
+    <div class="screen screen_4" id="scr4">
+      <div class="top_scr4">
+        <div class="tittle_4scr">
+          <h3>
+            как воспользоваться услугами <br />
+            Автомастерской Джо
+          </h3>
+        </div>
+      </div>
+      <div class="left_scr4">
+        <div class="t__top_scr4">
+          1. Приехать к мастерской и починиться сразу
+        </div>
+        <div class="t__bottom_scr4">
+          <div class="map">
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aced4dfe2b49fa56080229cad38b18358c09d5eff6a266b4fc78600294117593c&amp;width=320&amp;height=320&amp;lang=ru_UA&amp;scroll=true"></script>
+          </div>
+        </div>
+      </div>
+      <div class="right_scr4">
+        <div class="t__top_scr4">
+          2. Связаться с поддержкой и записаться (на 10% дешевле)
+        </div>
+        <div class="t__bottom_scr4">
+          <div class="button__scr4"><a href="fotm.html" target="blanc">связаться</a></div>
+        </div>
+      </div>
+      <div class="partition"></div>
+    </div>
+    <footer>
+      <div class="uuu"><span>обирай лучших</span></div>
+      <div class="eee">Спасибо за просмотр</div>
+    </footer>
+
+    <script src="Script/index.js"></script>
+    <script src="Script/Slider.js"></script>
+    <script src="Script/map.js"></script>
+  </body>
+</html>
